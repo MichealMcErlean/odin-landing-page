@@ -1,0 +1,194 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(37, 33, 33);
+    padding:0;
+    margin:0;
+}
+
+.content {
+    background-color: white;
+    width: 90%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content:space-between;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.header p {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header li {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cardbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.cardrow {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 150px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card img {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.cardboxtitle {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.side-by-side {
+    background-color: #1f2937;
+    flex-grow: 1;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotebox {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    align-self: center;
+    width: 800px;
+}
+
+.quote-attrib {
+
+    width: 800px;
+    display: flex;
+    justify-content:flex-end;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    width: 600px;
+    padding: 0 30px;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 3px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 1px 10px;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+
+}
+
+.action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.central-box {
+    background-color:#3882f6;
+    display: flex;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.action-title {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.side-text {
+    padding: 10px;
+}
